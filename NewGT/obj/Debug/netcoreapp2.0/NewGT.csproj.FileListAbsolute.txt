@@ -1,0 +1,11 @@
+D:\MVC-Architecture\NewGT\NewGT\bin\Debug\netcoreapp2.0\NewGT.deps.json
+D:\MVC-Architecture\NewGT\NewGT\bin\Debug\netcoreapp2.0\NewGT.runtimeconfig.json
+D:\MVC-Architecture\NewGT\NewGT\bin\Debug\netcoreapp2.0\NewGT.runtimeconfig.dev.json
+D:\MVC-Architecture\NewGT\NewGT\bin\Debug\netcoreapp2.0\NewGT.dll
+D:\MVC-Architecture\NewGT\NewGT\bin\Debug\netcoreapp2.0\NewGT.pdb
+D:\MVC-Architecture\NewGT\NewGT\obj\Debug\netcoreapp2.0\NewGT.csprojResolveAssemblyReference.cache
+D:\MVC-Architecture\NewGT\NewGT\obj\Debug\netcoreapp2.0\NewGT.csproj.CoreCompileInputs.cache
+D:\MVC-Architecture\NewGT\NewGT\obj\Debug\netcoreapp2.0\NewGT.AssemblyInfoInputs.cache
+D:\MVC-Architecture\NewGT\NewGT\obj\Debug\netcoreapp2.0\NewGT.AssemblyInfo.cs
+D:\MVC-Architecture\NewGT\NewGT\obj\Debug\netcoreapp2.0\NewGT.dll
+D:\MVC-Architecture\NewGT\NewGT\obj\Debug\netcoreapp2.0\NewGT.pdb
