@@ -20,7 +20,8 @@ export class WeatherComponent {
     }
 
     public postWeather(chosenCity: string) {
-        this.http.post('http://localhost:3000/api/weather/PostCity', {'city': chosenCity }).subscribe();
+        var body = { city: chosenCity };
+        this.http.post('http://localhost:3000/api/weather/PostCity', body).subscribe();
     }
 
    

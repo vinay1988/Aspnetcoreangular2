@@ -19,7 +19,7 @@ namespace NewGTAng.Controllers
             return Ok(new { Temp = "12", Summary = "Delhi weather", City = city,Area=1200 });
         }
         [HttpPost("[action]/{PostCity}")]
-        public string PostCity(string city)
+        public string PostCity()
         {
             return "test";
         }
