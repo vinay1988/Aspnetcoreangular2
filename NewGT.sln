@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewGT", "NewGT\NewGT.csproj", "{38161752-FCB7-41C7-A52A-D52A7D93E4E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewGT", "NewGT\NewGT.csproj", "{38161752-FCB7-41C7-A52A-D52A7D93E4E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewGTAng", "NewGTAng\NewGTAng.csproj", "{A5DDC254-B2E9-4684-964D-32711C470B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewGTAng", "NewGTAng\NewGTAng.csproj", "{A5DDC254-B2E9-4684-964D-32711C470B2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiver.Api.Crud", "..\Fiver.Api.Crud-master\Fiver.Api.Crud-master\Fiver.Api.Crud\Fiver.Api.Crud.csproj", "{098FCE6C-8BF0-41A0-B990-1EE25E144708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A5DDC254-B2E9-4684-964D-32711C470B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5DDC254-B2E9-4684-964D-32711C470B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5DDC254-B2E9-4684-964D-32711C470B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098FCE6C-8BF0-41A0-B990-1EE25E144708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098FCE6C-8BF0-41A0-B990-1EE25E144708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098FCE6C-8BF0-41A0-B990-1EE25E144708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098FCE6C-8BF0-41A0-B990-1EE25E144708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

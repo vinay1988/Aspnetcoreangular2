@@ -1,16 +1,18 @@
 ﻿import { Component } from '@angular/core';
-import { Http } from '@angular/http';
-import { FormsModule } from '@angular/forms'
+import { Http, RequestOptions, Headers } from '@angular/http';
+import { FormsModule } from '@angular/forms';
+
+
 
 @Component({
     selector: 'weather',
     templateUrl: './weather.component.html'
 })
 export class WeatherComponent {
-    public weather: Weather;
 
+    weather: Weather;
     constructor(private http: Http) {
-      
+        this.weather = new Weather();
     }
 
     public getWeather(chosenCity: string) {
@@ -19,18 +21,29 @@ export class WeatherComponent {
         });
     }
 
-    public postWeather(chosenCity: string) {
-        var body = { city: chosenCity };
-        this.http.post('http://localhost:3000/api/weather/PostCity', body).subscribe();
+    public postWeather() {
+        //var body = { 
+        //    "temp":"20",
+        //    "summary":"test 123",
+        //    "city": "ND"
+        //};
+        
+        let headers = new Headers({ 'Content-Type': 'application/json' });
+        let options = new RequestOptions({ headers: headers });
+        this.http.post('http://localhost:3000/api/weather', this.weather, options).subscribe();
     }
+
+  
 
    
 
 }
 
-interface Weather {
+export class Weather {
     temp: string;
     summary: string;
     city: string;
+    constructor() {
+    }
 }
     
